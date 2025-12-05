@@ -1,2 +1,2 @@
-# Libaray-Mnagement-System
+# Libaray-Management system
 Java Development Project
