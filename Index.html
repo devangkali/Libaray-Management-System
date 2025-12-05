@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📚 Library Management System</h1>
+
+    <div class="container">
+
+        <h2>Add New Book</h2>
+        <input type="text" id="bookName" placeholder="Book Name">
+        <input type="text" id="authorName" placeholder="Author Name">
+        <button onclick="addBook()">Add Book</button>
+
+        <h2>Books List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book Name</th>
+                    <th>Author</th>
+                    <th>Status</th>
+                    <th>Issue / Return</th>
+                </tr>
+            </thead>
+            <tbody id="bookTable">
+            </tbody>
+        </table>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
